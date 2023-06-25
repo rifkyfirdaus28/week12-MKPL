@@ -26,4 +26,4 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # ini sudah default
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # buat settingan sonarnya
-      run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=(sesuaikan dengan akun) -Dsonar.projectKey=(sesuaikan dengan projek key)
+      run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=rifkyfirdaus28 -Dsonar.projectKey=rifkyfirdaus28_week12-MKPL
